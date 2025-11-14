@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aria | Couture Luxury Bags</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+    <header class="navbar" data-animate>
+        <div class="brand brand--animated" aria-label="Aria luxury atelier">
+            <span aria-hidden="true">A</span>
+            <span aria-hidden="true">R</span>
+            <span aria-hidden="true">I</span>
+            <span aria-hidden="true">A</span>
+        </div>
+        <nav>
+            <a href="#catalog">Collection</a>
+            <a href="#atelier">Craft</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#journal">Story</a>
+            <button class="cart-toggle" aria-haspopup="dialog" aria-controls="cartDrawer">
+                Cart <span class="cart-count">0</span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" data-animate>
+            <div class="hero__content">
+                <span class="pill">Aria Atelier</span>
+                <h1>Hand-sculpted luxury bags for the collectors of rarity.</h1>
+                <p>Every Aria silhouette is born from luminous glass, heritage leathers, and metallic threads that catch the city glow. Never repeated, always unforgettable.</p>
+                <div class="hero__actions">
+                    <a href="#catalog" class="btn btn--primary">Shop the collection</a>
+                    <a href="#gallery" class="btn btn--ghost">View artistry</a>
+                </div>
+            </div>
+            <div class="hero__visual" data-animate>
+                <div class="hero__halo"></div>
+                <div class="hero__logo">ARIA</div>
+                <img src="https://images.unsplash.com/photo-1611926653458-09294b5d2b62?auto=format&fit=crop&w=1200&q=80" alt="Aria couture bag" />
+            </div>
+        </section>
+
+        <section class="marquee" data-animate>
+            <div class="marquee__inner">
+                <span>Molten glass inlays</span>
+                <span>Moonlit alligator leather</span>
+                <span>Titanium sculpted clasps</span>
+                <span>Gemstone gradient finishes</span>
+                <span>Hand-painted interiors</span>
+            </div>
+        </section>
+
+        <section id="catalog" class="catalog" data-animate>
+            <div class="section-header">
+                <h2>Current couture collection</h2>
+                <p>Curated drops of heirloom-worthy bags. Each piece ships with provenance papers and a lifetime artisan retouch.</p>
+            </div>
+            <div class="product-grid">
+                <article class="product-card" data-animate>
+                    <figure>
+                        <img src="https://images.unsplash.com/photo-1515468381879-40ad4fcb6c2d?auto=format&fit=crop&w=900&q=80" alt="Aurora Nocturne clutch" />
+                        <span class="tag">One-of-one</span>
+                    </figure>
+                    <div class="product-card__body">
+                        <h3>Aurora Nocturne</h3>
+                        <p>Obsidian glass slashed with auric foil and midnight python leather.</p>
+                        <div class="product-card__meta">
+                            <span class="price">$8,950</span>
+                            <span class="size">Evening clutch</span>
+                        </div>
+                        <div class="product-card__actions">
+                            <button class="btn btn--primary add-to-cart" data-name="Aurora Nocturne" data-price="8950" data-image="https://images.unsplash.com/photo-1515468381879-40ad4fcb6c2d?auto=format&fit=crop&w=900&q=80" data-description="Obsidian glass & python leather evening clutch.">Add to cart</button>
+                            <button class="btn btn--ghost buy-now" data-name="Aurora Nocturne" data-price="8950" data-image="https://images.unsplash.com/photo-1515468381879-40ad4fcb6c2d?auto=format&fit=crop&w=900&q=80" data-description="Obsidian glass & python leather evening clutch.">Buy now</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card" data-animate>
+                    <figure>
+                        <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=900&q=80" alt="Lumen Cascade tote" />
+                        <span class="tag tag--glow">Collector's pick</span>
+                    </figure>
+                    <div class="product-card__body">
+                        <h3>Lumen Cascade</h3>
+                        <p>Rose quartz glass handles on dove-grey calfskin with luminous stitching.</p>
+                        <div class="product-card__meta">
+                            <span class="price">$7,480</span>
+                            <span class="size">Day tote</span>
+                        </div>
+                        <div class="product-card__actions">
+                            <button class="btn btn--primary add-to-cart" data-name="Lumen Cascade" data-price="7480" data-image="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=900&q=80" data-description="Rose quartz handles on dove-grey calfskin.">Add to cart</button>
+                            <button class="btn btn--ghost buy-now" data-name="Lumen Cascade" data-price="7480" data-image="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=900&q=80" data-description="Rose quartz handles on dove-grey calfskin.">Buy now</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card" data-animate>
+                    <figure>
+                        <img src="https://images.unsplash.com/photo-1620799139720-bfbef5a4b076?auto=format&fit=crop&w=900&q=80" alt="Celestial Reverie mini" />
+                        <span class="tag">Made to order</span>
+                    </figure>
+                    <div class="product-card__body">
+                        <h3>Celestial Reverie</h3>
+                        <p>Prussian suede layered with mirrored titanium lattice and opal dusting.</p>
+                        <div class="product-card__meta">
+                            <span class="price">$9,260</span>
+                            <span class="size">Mini sculpt</span>
+                        </div>
+                        <div class="product-card__actions">
+                            <button class="btn btn--primary add-to-cart" data-name="Celestial Reverie" data-price="9260" data-image="https://images.unsplash.com/photo-1620799139720-bfbef5a4b076?auto=format&fit=crop&w=900&q=80" data-description="Prussian suede with titanium lattice and opal shimmer.">Add to cart</button>
+                            <button class="btn btn--ghost buy-now" data-name="Celestial Reverie" data-price="9260" data-image="https://images.unsplash.com/photo-1620799139720-bfbef5a4b076?auto=format&fit=crop&w=900&q=80" data-description="Prussian suede with titanium lattice and opal shimmer.">Buy now</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card" data-animate>
+                    <figure>
+                        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80" alt="Seraph Voyage weekender" />
+                        <span class="tag">New drop</span>
+                    </figure>
+                    <div class="product-card__body">
+                        <h3>Seraph Voyage</h3>
+                        <p>Cloud white ostrich leather with smoked glass corners and satin interior.</p>
+                        <div class="product-card__meta">
+                            <span class="price">$10,400</span>
+                            <span class="size">Weekender</span>
+                        </div>
+                        <div class="product-card__actions">
+                            <button class="btn btn--primary add-to-cart" data-name="Seraph Voyage" data-price="10400" data-image="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80" data-description="Ostrich leather with smoked glass architecture.">Add to cart</button>
+                            <button class="btn btn--ghost buy-now" data-name="Seraph Voyage" data-price="10400" data-image="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80" data-description="Ostrich leather with smoked glass architecture.">Buy now</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="atelier" class="atelier" data-animate>
+            <div class="atelier__visual" data-animate>
+                <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=80" alt="Atelier craftsmanship" />
+                <div class="atelier__overlay">
+                    <p>Every seam is measured against concertos of light, ensuring reflections align with your movement.</p>
+                </div>
+            </div>
+            <div class="atelier__content">
+                <h2>The Aria craft</h2>
+                <p>Our artisans fuse architectural glasswork with couture leather techniques. Pieces are forged in limited ateliers from Paris to Kyoto, orchestrated by a single master craftsperson.</p>
+                <ul>
+                    <li>Hand-cut glass facets fused with aerospace-grade titanium.</li>
+                    <li>Vegetable-tanned leathers hand-dyed to mirror constellations.</li>
+                    <li>Interior architecture mapped to your devices, journals, and keepsakes.</li>
+                    <li>Signed authenticity chip with lifetime concierge updates.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery" data-animate>
+            <div class="section-header">
+                <h2>Gallery of luminescence</h2>
+                <p>Captured moments from the Aria studio — where light bends around every curve.</p>
+            </div>
+            <div class="gallery__grid">
+                <figure data-animate>
+                    <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=80" alt="Design sketches" />
+                    <figcaption>Initial design gestures sketched on mirrored vellum.</figcaption>
+                </figure>
+                <figure data-animate>
+                    <img src="https://images.unsplash.com/photo-1600180758890-d25b39b77790?auto=format&fit=crop&w=900&q=80" alt="Hand stitching" />
+                    <figcaption>Hand stitching with platinum filament thread.</figcaption>
+                </figure>
+                <figure data-animate>
+                    <img src="https://images.unsplash.com/photo-1617032213048-d8c105c7da24?auto=format&fit=crop&w=900&q=80" alt="Glass bag" />
+                    <figcaption>Glass facets polished to capture evening neon.</figcaption>
+                </figure>
+                <figure data-animate>
+                    <img src="https://images.unsplash.com/photo-1612810806695-30ba0b38fa87?auto=format&fit=crop&w=900&q=80" alt="Finished luxury bag" />
+                    <figcaption>Finished bespoke piece awaiting reveal.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="journal" class="journal" data-animate>
+            <div class="journal__content">
+                <h2>Behind the silhouette</h2>
+                <p>Each commission begins with a mood sonata: chromatic studies, scent pairing, and the sound of the cities you adore. Aria transforms this sensorial map into a bag that feels like destiny.</p>
+                <div class="journal__notes">
+                    <div>
+                        <h3>Private viewings</h3>
+                        <p>Reserve a virtual or in-salon showing where your design is rendered live in augmented glass.</p>
+                    </div>
+                    <div>
+                        <h3>Bespoke finishes</h3>
+                        <p>Select rare pigments, metal patinas, and inner suede palettes with our concierge.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="journal__visual" data-animate>
+                <img src="https://images.unsplash.com/photo-1600180758890-d25b39b77790?auto=format&fit=crop&w=900&q=80" alt="Artisan working on bag" />
+                <div class="journal__badge">Editionless</div>
+            </div>
+        </section>
+
+        <section class="testimonials" data-animate>
+            <h2>Collectors whisper</h2>
+            <div class="carousel">
+                <blockquote>
+                    “My Aurora Nocturne dances with the skyline — it is wearable architecture.”
+                    <cite>— Selene V., Director</cite>
+                </blockquote>
+                <blockquote>
+                    “The craftsmanship is otherworldly. Every clasp feels composed just for me.”
+                    <cite>— Hye-Jin L., Curator</cite>
+                </blockquote>
+                <blockquote>
+                    “Aria translated my travel journals into glass and leather. It carries my stories.”
+                    <cite>— Oliver R., Architect</cite>
+                </blockquote>
+            </div>
+        </section>
+
+        <section class="perks" data-animate>
+            <div class="perk" data-animate>
+                <h3>Worldwide white glove delivery</h3>
+                <p>Insured courier arrival with in-person unveiling and calibration session.</p>
+            </div>
+            <div class="perk" data-animate>
+                <h3>Lifetime artisan care</h3>
+                <p>Annual spa for leather, glass repolishing, and hardware rebalancing.</p>
+            </div>
+            <div class="perk" data-animate>
+                <h3>Collector's ledger</h3>
+                <p>Blockchain-backed provenance, digital twin, and invitation to private previews.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" data-animate>
+        <div class="logo">ARIA</div>
+        <p>© <span id="year"></span> Aria Atelier. Singular luxury, forever yours.</p>
+    </footer>
+
+    <div class="cart-backdrop" id="cartBackdrop" hidden></div>
+    <aside class="cart-drawer" id="cartDrawer" aria-hidden="true" role="dialog" aria-label="Shopping cart">
+        <div class="cart-header">
+            <h2>Your Aria cart</h2>
+            <button class="cart-close" aria-label="Close cart">×</button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <p class="cart-empty">Your cart is currently a blank canvas.</p>
+        </div>
+        <div class="cart-summary" hidden>
+            <span>Total investment</span>
+            <span id="cartTotal">$0</span>
+        </div>
+        <button class="btn btn--primary cart-checkout" hidden>Proceed to purchase</button>
+    </aside>
+
+    <div class="cursor" id="cursor"></div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
