@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+        name="description"
+        content="Aria Atelier crafts bespoke luxury bags with minimalist silhouettes, meticulous materials, and a refined shopping experience."
+    />
+    <title>Aria | Bespoke Luxury Bags</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+    <header class="navbar" data-animate>
+        <div class="brand brand--animated" aria-label="Aria luxury bags">
+            <span aria-hidden="true">A</span>
+            <span aria-hidden="true">R</span>
+            <span aria-hidden="true">I</span>
+            <span aria-hidden="true">A</span>
+        </div>
+        <nav class="nav-links">
+            <a href="#collection">Collection</a>
+            <a href="#craft">Craft</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#journal">Journal</a>
+        </nav>
+        <button class="cart-toggle" aria-haspopup="dialog" aria-controls="cartDrawer">
+            Cart <span class="cart-count" aria-live="polite" aria-atomic="true">0</span>
+        </button>
+    </header>
+
+    <main>
+        <section class="hero" data-animate>
+            <div class="hero__content">
+                <p class="pill">Aria Atelier</p>
+                <h1>Timeless silhouettes, crafted one bag at a time.</h1>
+                <p>
+                    Aria creates singular leather and glass heirlooms for collectors who crave quiet elegance.
+                    Each design is sketched, cut, and finished to honour the person who will carry it.
+                </p>
+                <div class="hero__actions">
+                    <a href="#collection" class="btn btn--primary">Explore the collection</a>
+                    <a href="#journal" class="btn btn--ghost">Our philosophy</a>
+                </div>
+            </div>
+            <figure class="hero__visual" data-animate>
+                <div class="hero__halo" aria-hidden="true"></div>
+                <img
+                    src="https://images.pexels.com/photos/5632326/pexels-photo-5632326.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                    alt="Collection of artisan luxury handbags"
+                    loading="eager"
+                    decoding="async"
+                    fetchpriority="high"
+                />
+            </figure>
+        </section>
+
+        <section class="signature" data-animate>
+            <div class="signature__item">
+                <h3>Rare materials</h3>
+                <p>From luminous glass inlays to hand-aged calfskin, every component is sourced for texture and longevity.</p>
+            </div>
+            <div class="signature__item">
+                <h3>Edition of one</h3>
+                <p>No Aria bag is repeated. Your silhouette is engraved with provenance papers and an authenticity chip.</p>
+            </div>
+            <div class="signature__item">
+                <h3>Considered minimalism</h3>
+                <p>Streamlined interiors and gentle forms keep the focus on craftsmanship and your personal narrative.</p>
+            </div>
+        </section>
+
+        <section id="collection" class="collection" data-animate>
+            <div class="section-header">
+                <h2>Couture collection</h2>
+                <p>Four handcrafted statements available for immediate commission.</p>
+            </div>
+            <div class="product-grid">
+                <article class="product-card" data-animate>
+                    <figure>
+                        <img
+                            src="https://images.pexels.com/photos/5632398/pexels-photo-5632398.jpeg?auto=compress&cs=tinysrgb&w=900"
+                            alt="Neutral structured luxury handbag on display"
+                            loading="lazy"
+                            decoding="async"
+                            fetchpriority="low"
+                        />
+                    </figure>
+                    <div class="product-card__body">
+                        <h3>Edition 01</h3>
+                        <p>Stone calfskin envelope silhouette finished with a glasslike sheen and satin lining.</p>
+                        <div class="product-card__meta">
+                            <span class="price">$9,200</span>
+                            <span class="size">Structured satchel</span>
+                        </div>
+                        <div class="product-card__actions">
+                            <button class="btn btn--primary add-to-cart" data-name="Edition 01" data-price="9200" data-image="https://images.pexels.com/photos/5632398/pexels-photo-5632398.jpeg?auto=compress&cs=tinysrgb&w=900" data-description="Stone calfskin envelope bag with luminous finish.">Add to cart</button>
+                            <button class="btn btn--ghost buy-now" data-name="Edition 01" data-price="9200" data-image="https://images.pexels.com/photos/5632398/pexels-photo-5632398.jpeg?auto=compress&cs=tinysrgb&w=900" data-description="Stone calfskin envelope bag with luminous finish.">Buy now</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card" data-animate>
+                    <figure>
+                        <img
+                            src="https://images.pexels.com/photos/5632395/pexels-photo-5632395.jpeg?auto=compress&cs=tinysrgb&w=900"
+                            alt="Chocolate-toned luxury tote bag on pedestal"
+                            loading="lazy"
+                            decoding="async"
+                            fetchpriority="low"
+                        />
+                    </figure>
+                    <div class="product-card__body">
+                        <h3>Edition 02</h3>
+                        <p>Deep cocoa leather tote detailed with sculptural handles and hand-finished edges.</p>
+                        <div class="product-card__meta">
+                            <span class="price">$8,450</span>
+                            <span class="size">Day tote</span>
+                        </div>
+                        <div class="product-card__actions">
+                            <button class="btn btn--primary add-to-cart" data-name="Edition 02" data-price="8450" data-image="https://images.pexels.com/photos/5632395/pexels-photo-5632395.jpeg?auto=compress&cs=tinysrgb&w=900" data-description="Cocoa leather tote with sculptural handles.">Add to cart</button>
+                            <button class="btn btn--ghost buy-now" data-name="Edition 02" data-price="8450" data-image="https://images.pexels.com/photos/5632395/pexels-photo-5632395.jpeg?auto=compress&cs=tinysrgb&w=900" data-description="Cocoa leather tote with sculptural handles.">Buy now</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card" data-animate>
+                    <figure>
+                        <img
+                            src="https://images.pexels.com/photos/5632391/pexels-photo-5632391.jpeg?auto=compress&cs=tinysrgb&w=900"
+                            alt="Deep blue evening handbag with metallic accents"
+                            loading="lazy"
+                            decoding="async"
+                            fetchpriority="low"
+                        />
+                    </figure>
+                    <div class="product-card__body">
+                        <h3>Edition 03</h3>
+                        <p>Midnight suede miniature edged with polished metal trim and detachable glass beads.</p>
+                        <div class="product-card__meta">
+                            <span class="price">$7,980</span>
+                            <span class="size">Evening companion</span>
+                        </div>
+                        <div class="product-card__actions">
+                            <button class="btn btn--primary add-to-cart" data-name="Edition 03" data-price="7980" data-image="https://images.pexels.com/photos/5632391/pexels-photo-5632391.jpeg?auto=compress&cs=tinysrgb&w=900" data-description="Midnight suede mini with polished trim.">Add to cart</button>
+                            <button class="btn btn--ghost buy-now" data-name="Edition 03" data-price="7980" data-image="https://images.pexels.com/photos/5632391/pexels-photo-5632391.jpeg?auto=compress&cs=tinysrgb&w=900" data-description="Midnight suede mini with polished trim.">Buy now</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card" data-animate>
+                    <figure>
+                        <img
+                            src="https://images.pexels.com/photos/5632325/pexels-photo-5632325.jpeg?auto=compress&cs=tinysrgb&w=900"
+                            alt="Soft blush luxury travel bag on marble"
+                            loading="lazy"
+                            decoding="async"
+                            fetchpriority="low"
+                        />
+                    </figure>
+                    <div class="product-card__body">
+                        <h3>Edition 04</h3>
+                        <p>Petal-toned weekender crafted with brushed gold feet and a spacious dual compartment.</p>
+                        <div class="product-card__meta">
+                            <span class="price">$10,600</span>
+                            <span class="size">Weekend carryall</span>
+                        </div>
+                        <div class="product-card__actions">
+                            <button class="btn btn--primary add-to-cart" data-name="Edition 04" data-price="10600" data-image="https://images.pexels.com/photos/5632325/pexels-photo-5632325.jpeg?auto=compress&cs=tinysrgb&w=900" data-description="Petal leather carryall with brushed gold details.">Add to cart</button>
+                            <button class="btn btn--ghost buy-now" data-name="Edition 04" data-price="10600" data-image="https://images.pexels.com/photos/5632325/pexels-photo-5632325.jpeg?auto=compress&cs=tinysrgb&w=900" data-description="Petal leather carryall with brushed gold details.">Buy now</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="craft" class="craft" data-animate>
+            <figure class="craft__visual" data-animate>
+                <img
+                    src="https://images.pexels.com/photos/6758053/pexels-photo-6758053.jpeg?auto=compress&cs=tinysrgb&w=900"
+                    alt="Artisan crafting a luxury handbag"
+                    loading="lazy"
+                    decoding="async"
+                    fetchpriority="low"
+                />
+            </figure>
+            <div class="craft__content">
+                <h2>The craft of restraint</h2>
+                <p>
+                    Minimal lines hide intricate engineering. Artisans blend featherweight glass, couture-grade leathers, and
+                    hand-polished metalwork to ensure every Aria piece is balanced, resilient, and quietly radiant.
+                </p>
+                <ul>
+                    <li>Hand-cut panels matched for grain, tone, and natural character.</li>
+                    <li>Hidden reinforcement to maintain structure without unnecessary weight.</li>
+                    <li>Silken interior pockets tailored to your everyday essentials.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery" data-animate>
+            <div class="section-header">
+                <h2>Gallery</h2>
+                <p>Details from recent commissions captured in natural light.</p>
+            </div>
+            <div class="gallery__grid">
+                <figure data-animate>
+                    <img
+                        src="https://images.pexels.com/photos/8032697/pexels-photo-8032697.jpeg?auto=compress&cs=tinysrgb&w=900"
+                        alt="Array of pastel luxury handbags"
+                        loading="lazy"
+                        decoding="async"
+                        fetchpriority="low"
+                    />
+                    <figcaption>Chromatic gradient finishes designed to reflect evening skylines.</figcaption>
+                </figure>
+                <figure data-animate>
+                    <img
+                        src="https://images.pexels.com/photos/9398366/pexels-photo-9398366.jpeg?auto=compress&cs=tinysrgb&w=900"
+                        alt="Minimalist display of sculptural handbags"
+                        loading="lazy"
+                        decoding="async"
+                        fetchpriority="low"
+                    />
+                    <figcaption>Editionless silhouettes staged before their private fittings.</figcaption>
+                </figure>
+                <figure data-animate>
+                    <img
+                        src="https://images.pexels.com/photos/5632335/pexels-photo-5632335.jpeg?auto=compress&cs=tinysrgb&w=900"
+                        alt="Metallic luxury handbag resting on table"
+                        loading="lazy"
+                        decoding="async"
+                        fetchpriority="low"
+                    />
+                    <figcaption>Every strap, clasp, and lining is finished by a single master artisan.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="journal" class="journal" data-animate>
+            <div class="journal__content">
+                <h2>Journal notes</h2>
+                <p>
+                    Our atelier keeps a living archive of sketches, colour studies, and material experiments. When you join the
+                    Aria circle, these studies become the foundation of your bespoke bag.
+                </p>
+                <div class="journal__notes">
+                    <div>
+                        <h3>Private preview</h3>
+                        <p>Secure a one-to-one video presentation with live material demonstrations.</p>
+                    </div>
+                    <div>
+                        <h3>Signature palette</h3>
+                        <p>Collaborate on pigments, interior textures, and glass treatments curated for you.</p>
+                    </div>
+                </div>
+            </div>
+            <figure class="journal__visual" data-animate>
+                <img
+                    src="https://images.pexels.com/photos/5632394/pexels-photo-5632394.jpeg?auto=compress&cs=tinysrgb&w=900"
+                    alt="Luxury handbag in studio lighting"
+                    loading="lazy"
+                    decoding="async"
+                    fetchpriority="low"
+                />
+                <div class="journal__badge">Edition of one</div>
+            </figure>
+        </section>
+
+        <section class="assurance" data-animate>
+            <div class="assurance__item" data-animate>
+                <h3>White glove delivery</h3>
+                <p>Personally scheduled arrival with on-site fitting and care tutorial.</p>
+            </div>
+            <div class="assurance__item" data-animate>
+                <h3>Lifetime care</h3>
+                <p>Annual spa service for leather reconditioning, glass polishing, and hardware tuning.</p>
+            </div>
+            <div class="assurance__item" data-animate>
+                <h3>Collector archive</h3>
+                <p>Digital provenance ledger with updates on upcoming limited releases.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" data-animate>
+        <div class="footer__logo">ARIA</div>
+        <p>© <span id="year"></span> Aria Atelier. Singular luxury, crafted with intention.</p>
+    </footer>
+
+    <div class="cart-backdrop" id="cartBackdrop" hidden></div>
+    <aside class="cart-drawer" id="cartDrawer" aria-hidden="true" role="dialog" aria-label="Shopping cart">
+        <div class="cart-header">
+            <h2>Your selections</h2>
+            <button class="cart-close" aria-label="Close cart">×</button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <p class="cart-empty">Your cart is currently a blank canvas.</p>
+        </div>
+        <div class="cart-summary" hidden>
+            <span>Total</span>
+            <span id="cartTotal">$0</span>
+        </div>
+        <button class="btn btn--primary cart-checkout" hidden>Proceed to purchase</button>
+    </aside>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
